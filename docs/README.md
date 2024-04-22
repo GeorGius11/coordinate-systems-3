@@ -1,6 +1,6 @@
-# Signal Processing with Node.js
+# Location Estimation Algorithms
 
-This project demonstrates basic signal processing techniques in Node.js, including the generation and filtering of signals, noise addition, autocorrelation, and Fourier Transform analysis. It uses `fft-js` for FFT computations and `nodeplotlib` for plotting.
+This project demonstrates three different methods for estimating the position of an object based on measurements from fixed reference points (bases). These methods include trilateration, triangulation, and gradient descent. The algorithms are tested under ideal conditions as well as with added noise to simulate real-world inaccuracies.
 
 ![Alt text for screen reader](/docs/screenshots/console-log.png)
 
